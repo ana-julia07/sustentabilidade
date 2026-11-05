@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoVanguarda | Plataforma de Sustentabilidade & Ciência</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <i class="fa-solid fa-leaf"></i> Eco<span>Vanguarda</span>
+      </a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#temas" class="nav-link">Eixos Temáticos</a>
+        <a href="#calculadora" class="nav-link">Calculadora</a>
+        <a href="#artigos" class="nav-link">Artigos Científicos</a>
+        <a href="#faq" class="nav-link">Descarte Certo</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge"><i class="fa-solid fa-microscope"></i> Ciência e Consciência Ambiental</span>
+      <h1>Inovação Científica para um <span>Futuro Sustentável</span></h1>
+      <p>Explore as fronteiras da economia circular, química verde, descarbonização e tecnologias que transformam o presente e garantem as próximas gerações.</p>
+      <div class="hero-buttons">
+        <a href="#temas" class="btn btn-primary">Explorar Temas <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#calculadora" class="btn btn-outline"><i class="fa-solid fa-calculator"></i> Simular Pegada de Carbono</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eixos Temáticos -->
+  <section id="temas" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Eixos Temáticos de Sustentabilidade</h2>
+        <p>Pilares fundamentais da ecologia moderna e da engenharia ambiental contemporânea</p>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" alt="Pegada de Carbono e emissões de CO2" />
+            <span class="card-tag">Clima & CO₂</span>
+          </div>
+          <div class="card-body">
+            <h3>Pegada de Carbono (Carbon Footprint)</h3>
+            <p>Métrica que mensura a quantidade total de gases de efeito estufa (GEE) emitidos direta ou indiretamente por uma pessoa, organização ou produto ao longo de seu ciclo de vida.</p>
+            <ul class="card-features">
+              <li><i class="fa-solid fa-check"></i> Escopos 1, 2 e 3 do Protocolo GHG</li>
+              <li><i class="fa-solid fa-check"></i> Neutralidade de Carbono até 2050</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" alt="Plástico Verde e Biopolímeros" />
+            <span class="card-tag">Química Verde</span>
+          </div>
+          <div class="card-body">
+            <h3>Plástico Verde e Biopolímeros</h3>
+            <p>Resinas plásticas sintetizadas a partir de fontes renováveis como cana-de-açúcar e milho, reduzindo a dependência dos combustíveis fósseis e capturando CO₂ durante a matéria-prima.</p>
+            <ul class="card-features">
+              <li><i class="fa-solid fa-check"></i> Matrizes 100% Renováveis</li>
+              <li><i class="fa-solid fa-check"></i> Biodegradabilidade e Compostagem</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80" alt="Logística Reversa" />
+            <span class="card-tag">Cadeia de Suprimentos</span>
+          </div>
+          <div class="card-body">
+            <h3>Logística Reversa Integrada</h3>
+            <p>Instrumento de desenvolvimento econômico e social que viabiliza a coleta e a restituição dos resíduos sólidos ao setor empresarial para reaproveitamento em novas cadeias.</p>
+            <ul class="card-features">
+              <li><i class="fa-solid fa-check"></i> Política Nacional de Resíduos Sólidos</li>
+              <li><i class="fa-solid fa-check"></i> Responsabilidade Compartilhada</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&q=80" alt="Economia Circular" />
+            <span class="card-tag">Design Sustentável</span>
+          </div>
+          <div class="card-body">
+            <h3>Economia Circular</h3>
+            <p>Modelo de produção e consumo que envolve o compartilhamento, aluguel, reutilização, reparo e reciclagem de materiais e produtos existentes, eliminando o conceito de 'lixo'.</p>
+            <ul class="card-features">
+              <li><i class="fa-solid fa-check"></i> Eco-Design & Cradle to Cradle</li>
+              <li><i class="fa-solid fa-check"></i> Regeneração de Sistemas Naturais</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?auto=format&fit=crop&w=800&q=80" alt="Baterias e Eletrônicos" />
+            <span class="card-tag">Resíduos Perigosos</span>
+          </div>
+          <div class="card-body">
+            <h3>Descarte de Pilhas e Baterias</h3>
+            <p>Gestão de resíduos eletroeletrônicos contendo metais pesados como chumbo, cádmio e mercúrio, evitando a contaminação do solo e dos lençóis freáticos.</p>
+            <ul class="card-features">
+              <li><i class="fa-solid fa-check"></i> Recuperação de Metais Nobres</li>
+              <li><i class="fa-solid fa-check"></i> Descontaminação de Solos</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calculadora de Pegada de Carbono -->
+  <section id="calculadora" class="section alt-bg">
+    <div class="container">
+      <div class="calc-wrapper">
+        <div class="calc-info">
+          <h2>Simulador de Pegada de Carbono Pessoal</h2>
+          <p>Calcule uma estimativa simplificada das suas emissões anuais de CO₂ equivalente com base nos seus hábitos diários de consumo e mobilidade.</p>
+          <div class="calc-metric">
+            <i class="fa-solid fa-earth-americas"></i>
+            <div>
+              <strong>Média Nacional do Brasil:</strong>
+              <span>~2.1 Toneladas CO₂/ano por pessoa</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="carbonForm" class="calc-form">
+          <div class="form-group">
+            <label for="transporte"><i class="fa-solid fa-car"></i> Transporte Mensal (Km em veículo a combustível):</label>
+            <input type="number" id="transporte" placeholder="Ex: 400" min="0" required />
+          </div>
+
+          <div class="form-group">
+            <label for="energia"><i class="fa-solid fa-bolt"></i> Consumo de Energia Elétrica (kWh/mês):</label>
+            <input type="number" id="energia" placeholder="Ex: 220" min="0" required />
+          </div>
+
+          <div class="form-group">
+            <label for="carne"><i class="fa-solid fa-utensils"></i> Consumo de Carne Vermelha (Dias por semana):</label>
+            <select id="carne" required>
+              <option value="0">Nunca / Vegetariano / Vegano</option>
+              <option value="1">1 a 2 dias por semana</option>
+              <option value="3">3 a 5 dias por semana</option>
+              <option value="6">Todos os dias</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Calcular Emissões anuais</button>
+        </form>
+
+        <div id="calcResult" class="calc-result hidden">
+          <h3>Seu Resultado Estimado:</h3>
+          <div class="result-value"><span id="co2Total">0.00</span> <span>Ton CO₂ / ano</span></div>
+          <p id="calcAdvice"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Artigos Científicos -->
+  <section id="artigos" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Artigos Científicos e Literatura de Referência</h2>
+        <p>Publicações acadêmicas de alto impacto que embasam as práticas de sustentabilidade global</p>
+      </div>
+
+      <div class="articles-grid">
+        <article class="article-card">
+          <div class="article-meta">
+            <span class="pub-journal">Nature Climate Change</span>
+            <span class="pub-year">2023</span>
+          </div>
+          <h3>Life Cycle Assessment of Bio-based Polymers vs Petrochemical Plastics</h3>
+          <p class="authors">Autores: Dr. H. Schmidt, Dra. A. Silva et al.</p>
+          <p class="abstract">Análise abrangente de ciclo de vida demonstrando a redução de até 65% na pegada de carbono na síntese de polietileno verde em comparação com polímeros derivados de petróleo.</p>
+          <div class="article-footer">
+            <span class="doi">DOI: 10.1038/s41558-023-01742-w</span>
+            <button class="btn-read" onclick="alert('Redirecionando para o indexador acadêmico mockado.')">Ler Artigo <i class="fa-solid fa-external-link"></i></button>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="article-meta">
+            <span class="pub-journal">Journal of Cleaner Production</span>
+            <span class="pub-year">2024</span>
+          </div>
+          <h3>Circular Economy Systems in Electronic Waste Management</h3>
+          <p class="authors">Autores: Prof. R. Mendez, M. Sc. T. Oliveira</p>
+          <p class="abstract">Estudo sobre rotas de hidrometalurgia para recuperação de cobalto, lítio e terras raras a partir de baterias de íon-lítio descartadas em centros urbanos.</p>
+          <div class="article-footer">
+            <span class="doi">DOI: 10.1016/j.jclepro.2024.112890</span>
+            <button class="btn-read" onclick="alert('Redirecionando para o indexador acadêmico mockado.')">Ler Artigo <i class="fa-solid fa-external-link"></i></button>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="article-meta">
+            <span class="pub-journal">Environmental Science & Technology</span>
+            <span class="pub-year">2022</span>
+          </div>
+          <h3>Reverse Logistics Operations and Municipal Waste Decarbonization</h3>
+          <p class="authors">Autores: K. Zhang, L. Dupont, C. F. Santos</p>
+          <p class="abstract">Modelagem matemática aplicada à logística reversa de materiais recicláveis em metrópoles sul-americanas, mostrando ganhos em eficiência energética e inclusão social.</p>
+          <div class="article-footer">
+            <span class="doi">DOI: 10.1021/acs.est.2c03841</span>
+            <button class="btn-read" onclick="alert('Redirecionando para o indexador acadêmico mockado.')">Ler Artigo <i class="fa-solid fa-external-link"></i></button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Guia Rápido: Descarte de Pilhas -->
+  <section id="faq" class="section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2>Guia Prático: Descarte Correto de Pilhas e Baterias</h2>
+        <p>Saiba exatamente o que fazer com resíduos eletroeletrônicos perigosos</p>
+      </div>
+
+      <div class="guide-steps">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h4>Armazenamento Seguro</h4>
+          <p>Guarde as pilhas usadas em recipiente plástico limpo e seco. Nunca misture com lixo orgânico ou com outros recicláveis comuns.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h4>Isolamento de Terminais</h4>
+          <p>Em baterias de lítio ou 9V, coloque uma fita adesiva sobre os polos para evitar curtos-circuitos acidentais durante o transporte.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h4>Ponto de Entrega (PEV)</h4>
+          <p>Leve o material acumulado a postos de coleta em supermercados, farmácias, instituições de ensino ou assistências técnicas credenciadas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <i class="fa-solid fa-leaf"></i> Eco<span>Vanguarda</span>
+        </a>
+        <p>Promovendo a conscientização ambiental, a economia circular e o conhecimento científico acessível para a sociedade.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 EcoVanguarda. Projeto desenvolvido para publicação no GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="main.js"></script>
+</body>
+</html>
